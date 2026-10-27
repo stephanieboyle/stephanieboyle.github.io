@@ -32,3 +32,5 @@ button.button{border:0;border-radius:0;font-family:inherit;line-height:inherit;c
 .timeline-company,.community-list .community-org{display:flex;align-items:center;gap:12px}.org-logo{width:32px;height:32px;object-fit:contain;flex:none}.timeline-company{min-height:32px}.community-list .community-org{margin-top:10px}.community-list .org-logo{width:30px;height:30px}
 
 .education-org{display:inline-flex;align-items:center;gap:10px;margin-top:8px}.education-org .org-logo{width:28px;height:28px}.community-org a{text-decoration:underline;text-underline-offset:4px}
+
+.about-photo{width:100%;aspect-ratio:4/5;overflow:hidden;margin-top:30px;position:relative}.about-photo img{display:block;width:140%;max-width:none;height:auto;position:absolute;left:-20%;top:-45%}.about-visual{min-width:0}.about-visual h2{margin-bottom:0}@media(max-width:760px){.about-photo{max-width:320px;aspect-ratio:1/1;margin:25px 0 30px}.about-photo img{top:-77%;width:140%;left:-20%}}
