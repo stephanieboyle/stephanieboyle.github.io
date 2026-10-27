@@ -21,3 +21,5 @@ header:has(>nav:only-child){justify-content:flex-end}.hero-copy{max-width:420px;
 @media(min-width:761px){.portrait img{object-fit:contain;object-position:center top}}
 
 button.button{border:0;border-radius:0;font-family:inherit;line-height:inherit;cursor:pointer}.button[hidden]{display:none}button:focus-visible{outline:3px solid #789b36;outline-offset:6px}#email-contact:empty{display:none}
+
+.hero-current{font-size:12px;line-height:1.8;color:var(--muted);max-width:420px;margin:-12px 0 28px}.role-details summary{cursor:pointer;font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:4px;margin-bottom:20px}.role-details[open] summary{margin-bottom:18px}.role-details ul{font-size:14px;color:var(--muted);padding-left:18px}.role-details .timeline-stack{font-size:11px;color:var(--muted)}.leadership-story{margin:45px 0;padding:32px 36px;background:#edf0e8;max-width:100%}.leadership-story h3{font-size:26px}.leadership-story>p:not(.eyebrow){max-width:740px;font-size:15px;color:var(--muted)}.leadership-story>p:last-child{margin-bottom:0}@media(max-width:760px){.leadership-story{padding:25px}.hero-current{margin-top:-10px}}
