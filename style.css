@@ -30,3 +30,5 @@ button.button{border:0;border-radius:0;font-family:inherit;line-height:inherit;c
 .sharing-content{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start}.sharing-thumb{display:block;width:120px;height:90px;object-fit:contain;background:#e6e9e1}.sharing-row{grid-template-columns:155px 1fr auto}@media(max-width:900px){.sharing-row{grid-template-columns:1fr}.sharing-content{grid-template-columns:120px 1fr}}@media(max-width:480px){.sharing-content{grid-template-columns:90px 1fr;gap:15px}.sharing-thumb{width:90px;height:75px}}
 
 .timeline-company,.community-list .community-org{display:flex;align-items:center;gap:12px}.org-logo{width:32px;height:32px;object-fit:contain;flex:none}.timeline-company{min-height:32px}.community-list .community-org{margin-top:10px}.community-list .org-logo{width:30px;height:30px}
+
+.education-org{display:inline-flex;align-items:center;gap:10px;margin-top:8px}.education-org .org-logo{width:28px;height:28px}.community-org a{text-decoration:underline;text-underline-offset:4px}
