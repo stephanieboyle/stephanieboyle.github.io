@@ -15,3 +15,5 @@ header:has(>nav:only-child){justify-content:flex-end}.hero-copy{max-width:420px;
 @media(max-width:760px){.contact{margin:0;padding:55px 25px}.about{gap:8px}}
 
 .section-end-link{text-align:center;margin-top:36px}.sharing-row .eyebrow{font-size:12px;letter-spacing:.5px;line-height:1.7}.contact .button{background:var(--ink);color:white}.contact .button:hover{background:#3c594b}
+/* Keep the portrait within the height of the introduction. */
+@media(min-width:761px){.hero{align-items:stretch}.portrait{position:relative;height:100%;min-height:0;align-self:stretch}.portrait img{position:absolute;top:0;right:0;height:100%;width:100%;aspect-ratio:auto;object-fit:cover}.portrait figcaption{position:absolute;top:100%;left:0;right:0;margin-top:13px}}
